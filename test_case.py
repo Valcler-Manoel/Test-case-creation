@@ -203,9 +203,6 @@ class Test:
     def _config_psu(self):
         self.psu.set_voltage(0.0)
 
-    def _generate_report(self):
-        pass
-
     def _main(self):
         self._stop_flag = False
         while self._stop_flag is False:
